@@ -25,7 +25,7 @@ let timerText;
 let levelData = [
     { order: [[16, 19], [2, 5], [16, 19]], image: 'sequence1.png', timer: 7000, number: 1 },
     { order: [[23, 26]], image: 'sequence2.png', timer: 11000, number: 3 },
-    { order: [[16, 19], [1, 4]], image: 'sequence3.png', timer: 16000, number: 5 },
+    { order: [[16, 19]], image: 'sequence3.png', timer: 16000, number: 5 },
     { order: [[7, 10, 13], [22, 25], [0, 3, 6], [14, 17, 20]], image: 'sequence4.png', timer: 11000, number: 2 },
     { order: [[15, 18], [15, 18], [9, 12], [2, 5]], image: 'sequence5.png', timer: 7000, number: 1 }
 ];
