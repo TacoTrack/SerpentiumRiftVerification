@@ -81,7 +81,7 @@ function startGame(scene) {
 
     // Display the sequence image
     const levelInfo = levelData[level - 1];
-    scene.add.image(400, 50, `sequence${level}`).setScale(0.5);
+    scene.add.image(400, 50, `sequence${level}`);
 
     // Display something below the sequence image
     scene.add.text(400, 100, 'Your Number is : ' + levelInfo.number.toString(), {
